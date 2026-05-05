@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "scripts": {
-    "android": "react-native run-android",
+    "android": "cd android && ./gradlew --no-daemon assembleDebug --console=plain",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
@@ -21,13 +21,14 @@
     "react-native-console-panel": "^0.1.0",
     "react-native-device-info": "^10.12.0",
     "react-native-replace-dialer": "file:../react-native-replace-dialer",
-    "react-native-sip2": "https://github.com/telon-org/react-native-sip2",
-    "react-native-tele": "https://github.com/telon-org/react-native-tele"
+    "react-native-sip2": "file:../react-native-sip2",
+    "react-native-tele": "file:../react-native-tele"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/runtime": "^7.24.0",
     "@react-native-community/cli": "^18.0.0",
+    "@react-native-community/cli-platform-android": "18.0.0",
     "@react-native-community/eslint-config": "^3.2.0",
     "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
