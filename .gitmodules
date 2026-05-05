@@ -1,0 +1,12 @@
+[submodule "react-native-replace-dialer"]
+	path = react-native-replace-dialer
+	url = https://github.com/konek101/react-native-replace-dialer.git
+[submodule "react-native-sip2"]
+	path = react-native-sip2
+	url = https://github.com/konek101/react-native-sip2.git
+[submodule "react-native-tele"]
+	path = react-native-tele
+	url = https://github.com/konek101/react-native-tele.git
+[submodule "sip2-android-core"]
+	path = sip2-android-core
+	url = https://github.com/konek101/sip2-android-core.git
